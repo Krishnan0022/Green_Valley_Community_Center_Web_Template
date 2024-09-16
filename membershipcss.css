@@ -1,0 +1,109 @@
+/* ministyle.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+    background-image: url('aa.jpg'); /* Background image */
+    background-size: cover; /* Scale the background image to cover the whole page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating of the background image */
+}
+
+.header-container {
+    color: #ecf0f1; /* Light text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.nav-container {
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.nav-item a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+.nav-item a:hover {
+    background-color: #2c3e50; /* Darker background on hover */
+    text-decoration: underline;
+}
+
+.main-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    size: 0;;
+}
+
+.content-container {
+    background: #ffffff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-container h2 {
+    margin-top: 0;
+    color: #2c3e50; /* Dark text color for headings */
+}
+
+.signup-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.signup-form input, .signup-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners for form elements */
+}
+
+.signup-form input[type="submit"] {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.signup-form input[type="submit"]:hover {
+    background-color: #34495e; /* Slightly lighter background on hover */
+}
+
+.footer-container {
+    color: #ecf0f1; /* Light text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container p {
+    margin: 0;
+}

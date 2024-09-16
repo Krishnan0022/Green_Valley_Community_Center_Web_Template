@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Valley Community Center - Membership</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light background color */
+            background-color: #f0f0f0; /* Light grey background */
+            background-image: url('aa.jpg'); /* Background image */
+            background-size: cover; /* Scale the background image to cover the whole page */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent repeating of the background image */
+        }
+
+        /* Header styles */
+        .header-container {
+            
+            color: #ecf0f1; /* Light text color */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header-container h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Navigation styles */
+        .nav-container {
+            
+            padding: 10px 0;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-item {
+            margin: 0 15px; /* Space between nav items */
+        }
+
+        .nav-item a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px; /* Rounded corners for hover effect */
+        }
+
+        .nav-item a:hover {
+            
+            text-decoration: underline;
+        }
+
+        /* Main container styles */
+        .section-container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Content section styles */
+        .content-container {
+            background: #ffffff; /* White background for content */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.338); /* Subtle shadow */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .content-container h2 {
+            margin-top: 0;
+            color: #2c3e50; /* Dark text color for headings */
+        }
+
+        /* List styles within content-container */
+        .content-container ul {
+            padding-left: 0;
+            list-style-type: none; /* Remove default list bullets */
+        }
+
+        .content-container ul p {
+            margin: 10px 0; /* Space between list items */
+            color: #34495e; /* Darker text color for list items */
+        }
+
+        /* Form styles */
+        .signup-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .signup-form input, .signup-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px; /* Rounded corners for form elements */
+        }
+
+        .signup-form input[type="submit"] {
+            background-color: #31502c;
+            color: #ecf0f1;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+
+        .signup-form input[type="submit"]:hover {
+            background-color: #345e3a; /* Slightly lighter background on hover */
+        }
+
+        /* Footer styles */
+        .footer-container {
+           
+            color: #ecf0f1; /* Light text color */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-container p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-container">
+        <h1>Membership Information</h1>
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about us.html">About Us</a></li>
+                <li class="nav-item"><a href="innovation.html">Innovation</a></li>
+                <li class="nav-item"><a href="research.html">Research</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="section-container">
+        <section class="content-container">
+            <h2>Membership Benefits</h2>
+            <p>As a member of the Green Valley Community Center, you will enjoy various benefits including:</p>
+            <ul>
+                <li>Access to all community events and activities</li>
+                <li>Discounts on workshops and classes</li>
+                <li>Exclusive member-only events</li>
+                <li>Priority booking for facilities</li>
+            </ul>
+        </section>
+        <section class="content-container">
+            <h2>Sign Up</h2>
+            <form action="#" method="post" class="signup-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <input type="submit" value="Sign Up">
+            </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <p>&copy; 2024 Green Valley Community Center</p>
+    </footer>
+</body>
+</html>
